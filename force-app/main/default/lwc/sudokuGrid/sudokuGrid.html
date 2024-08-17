@@ -1,0 +1,12 @@
+<template>
+    <div class="sudoku-grid">
+        <!-- Iterate over rows to create rows and cells -->
+        <template for:each={rows} for:item="row">
+            <div key={row.index} class="sudoku-row">
+                <template for:each={row.cells} for:item="cell">
+                    <div key={cell.Id} class="sudoku-cell">{cell.Value__c}</div>
+                </template>
+            </div>
+        </template>
+    </div>
+</template>
