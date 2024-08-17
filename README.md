@@ -1,18 +1,14 @@
-# Salesforce DX Project: Next Steps
+This is a project written in Salesforce Apex that solves sudoku puzzles.  
+It has a public REST/GET endpoint that accepts puzzles in this format:
+https://logictest-dev-ed.my.site.com/services/apexrest/sudokusolution?puzzle=001605002007900008060003000080007021000000000003060470008020000504009200300004500
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Sample puzzles in that string format can be found here:
+https://www.sudocue.net/lite.php
+the string is under the puzzle, under the buttons
 
-## How Do You Plan to Deploy Your Changes?
+and here:
+https://www.sudokuwiki.org/sudoku.htm
+to get the string, click "load in solver" and then click "Email this board"
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Configure Your Salesforce DX Project
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
